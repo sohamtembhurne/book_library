@@ -1,3 +1,15 @@
+# Virtual Library Server
+
+This is a virtual library server, built with Node.js and Express. This server provides various RESTful services, including:
+
+- GET
+- POST
+- PATCH
+- DELETE
+- PUT
+
+To facilitate testing, a suite of tests has been implemented and can be found in `server/tests/server.test.js`. Follow the steps below to set up and run the tests.
+
 ## Steps to Set Up Locally
 
 ### Clone the Repository
