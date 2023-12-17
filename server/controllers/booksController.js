@@ -16,7 +16,7 @@ const addBook = (req, res) => {
         if (error) {
             res.status(500).send('Internal Server Error')
         } else {
-            res.send(message);
+            res.status(201).send(message);
         }
     });
 }

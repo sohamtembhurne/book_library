@@ -1,34 +1,47 @@
-## Steps to setup locally
+## Steps to Set Up Locally
 
-First clone this repository
-`git clone https-url`
-
-This project consists of two parts frontend and backend
-
-1. The backend can be setup using - 
-
-```js
-    cd backend/
-    npm install
+### Clone the Repository
+```bash
+git clone https://github.com/sohamtembhurne/book_library.git
 ```
 
-Now the node_modules will be installed, so now you can run the backend server using 
-`npm run dev`
-
-Now the server is running on port 5500 (http://localhost:5500/)
-
-The tests can be run using command
-`npm test`
-
-2. Frontend can be setup similiarly as - 
-
-```js
-    cd frontend/
-    npm install
+### Setting up Backend
+Navigate to the server directory:
+```bash
+cd server/
 ```
 
-Now the node_modules will be installed, so now you can run the frontend using 
-`npm start`
+Install dependencies:
+```bash
+npm install
+```
 
+Run the backend server:
+```bash
+npm start
+```
 
+The server will be running on [http://localhost:5500/](http://localhost:5500/).
 
+Run tests:
+```bash
+npm test
+```
+
+### Setting up Frontend
+Navigate to the client directory:
+```bash
+cd client/
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Run the frontend:
+```bash
+npm start
+```
+
+Now you have both the backend and frontend set up locally.

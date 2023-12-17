@@ -60,7 +60,6 @@ function App() {
         <div className="h-screen bg-gray-100 flex items-center justify-center">
             <div className="flex bg-white shadow-lg rounded-lg p-8 w-4/5">
                 {/* Book List */}
-                {console.log(booksArray.length)}
                 <div className="overflow-y-auto max-h-128 w-1/2 p-4">
                     {bookList.length > 0 ? (
                         <div className="space-y-4">
